@@ -12,7 +12,7 @@ class viceChancelor {
     }
     
 }
-public class Main {
+public class Singleton {
     public static void main(String[] args) {
         viceChancelor vc1 = viceChancelor.getInstance();
         viceChancelor vc2 = viceChancelor.getInstance();

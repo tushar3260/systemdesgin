@@ -1,3 +1,5 @@
+package desginPattern.Structural;
+
 //Adapter converts one interface into another interface that client expects.
 
 interface PaymentProcessor {
@@ -23,7 +25,6 @@ class PaymentAdapter implements PaymentProcessor {
     }
 }
 
-// Main class
 public class AdapterPattern {
     public static void main(String[] args) {
         OldPayGateway oldGateway = new OldPayGateway();
